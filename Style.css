@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-1 {
+    height: 714px;
+    background-image: linear-gradient(to bottom right, #111d5e, #1b1c25);
+}
+
+.home:hover {
+    opacity: .3;
+}
+
+.home {
+    font-family: 'Oswald', sans-serif;
+    color: cornsilk;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 75%;
+}
+
+.signup:hover {
+    opacity: .3;
+}
+
+.signup {
+    font-family: 'Oswald', sans-serif;
+    color: cornsilk;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 82%;
+}
+
+.mail:hover {
+    opacity: .3;
+}
+
+.mail {
+    font-family: 'Oswald', sans-serif;
+    color: cornsilk;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 89%;
+}
+
+.hacker-ig {
+    height: 600px;
+    width: 560px;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 3.5%;
+    transform: rotate(-20deg);
+}
+
+.container-2 {
+    height: 714px;
+    background-image: linear-gradient(to bottom right, #111d5e, #1b1c25);
+}
+
+.Heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    color: aqua;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 12%;
+}
+
+.Intro {
+    color: azure;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 19%;
+}
+
+.book-img {
+    opacity: .6;
+    height: 70px;
+    width: 70px;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.button-1:hover {
+    opacity: .3;
+}
+
+.button-1 {
+    background-color: aqua;
+    border-radius: 20px;
+    border-color: #1b1c25;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    color: #1b1c25;
+    margin-left: 52.3%;
+    margin-top: 28%;
+    opacity: .8;
+}
+
+.button-4:hover {
+    opacity: .3;
+}
+
+.button-4 {
+    background-color: aqua;
+    border-radius: 20px;
+    border-color: #1b1c25;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    color: #1b1c25;
+    margin-left: 64.3%;
+    margin-top: 28%;
+    opacity: .8;
+}
+
+.text-1 {
+    color: floralwhite;
+    position: absolute;
+}
+
+.getsupport {
+    color: #333333;
+    position: absolute;
+    left: 10px;
+}
+
+.developers {
+    color: #333333;
+}
+
+.container-3 {
+    background-image: linear-gradient(to bottom right, #111d5e, #1b1c25);
+    height: 370px;
+}
+
+.Heading2 {
+    font-family: 'Rowdies', cursive;
+    font-size: 70px;
+    color: aqua;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 0%;
+}
+
+.Heading3 {
+    font-size: 40px;
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 8%;
+}
+
+.sign-up {
+    background-color: #1b1c25;
+    border-radius: 20px;
+    border-color: white;
+    color: turquoise;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    margin-top: 22%;
+}
+
+.but-ton1 {
+    background-color: red;
+    color: white;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.but-ton2 {
+    background-color: green;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 77%
+}
+
+.p1 {
+    width: 1000px;
+    margin: 2% auto;
+    position: relative;
+    overflow: hidden;
+    background: #ebeaea;
+    box-shadow: 2px 18px 70px 0px rgb(2, 2, 2);
+    padding: 4%;
+    font-size: 20px;
+}
+
+.home-1:hover {
+    opacity: .3;
+}
+
+.home-1 {
+    font-family: 'Oswald', sans-serif;
+    color: cornsilk;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 97%;
+    z-index: 1;
+}

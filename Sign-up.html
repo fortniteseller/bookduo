@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Sign-up</title>
+    <meta charset="utf - 8">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        function OpenRJ() {
+            var enterinput = document.getElementById("namein").value;
+            var enterinput1 = document.getElementById("Passwrd").value;
+            if (enterinput.length <= 2) {
+                alert("Your name must contain minimum 3 elemeents ");
+            }
+            if (enterinput1.length <= 3) {
+                alert("Please be sure that password must have minimun 4 elements");
+            }
+            if (enterinput.length >= 3 && enterinput1.length >= 4) {
+                alert("Hi! " + enterinput + " You are Successfully-Signed up in our website");
+                var x = Math.floor((Math.random() * 1000) + 1000);
+                alert("You singed-up in our website \n Your Pin is " + x);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container-3">
+        <img src="research.png" class="book-img">
+        <a onclick="window.location.href='index.html'">
+            <h3 class="home">Home</h3>
+        </a>
+        <a href="mailto:rishabhjain47596@gmail.com">
+            <h3 class="mail">Contact us</h3>
+        </a>
+        <a onclick="window.location.href='index.html'">
+            <h3 class="signup">Back</h3>
+        </a>
+        <h1 class="Heading2">Books duo</h1>
+        <h2 class="Heading3"> Sign-up</h2>
+    </div>
+    <br>
+    <center>
+        <table cellspacing="40px">
+
+            <form>
+                <tr>
+                    <td> <b>Name :</b> </td>
+                    <td><input type="text" style="margin-left: 40%;" placeholder="minimum 3 characters" id="namein" name="Name" required></td>
+                </tr>
+                <tr>
+                    <td><b> Gmail :</b> </td>
+                    <td><input type="email" style="margin-left: 40%;" placeholder="Example@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><b> Password :</b> </td>
+                    <td><input type="password" style="margin-left: 40%;" placeholder="********" id="Passwrd" name="Password" required></td>
+
+                </tr>
+                <tr>
+                    <td><b> Yes , I agree to all the terms and policies</b> </td>
+                    <td> <input type="checkbox" name="chechbox" style="margin-left: 40%;" name="Checkbox" required></td>
+                </tr>
+                <button onclick="OpenRJ();" class="sign-up"><b>Submit</b></button>
+            </form>
+
+        </table>
+    </center>
+    <br><br><br><br>
+    <br><br>
+</body>
+
+</html>

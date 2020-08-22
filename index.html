@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Sniglet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Project FA-3</title>
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript">
+        function Checkpin() {
+            var x = prompt("Enter your pin = ");
+            if (x > 999 && x < 2001) {
+                window.open("HELEN/chindex.html");
+            }
+            if (x > 2000 && x < 3001) {
+                window.open("STORY/chindex.html");
+            } else {
+                alert("Wrong password try again");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container-1">
+        <img src="research.png" class="book-img">
+        <a onclick="window.location.href='javascript:location.reload();'">
+            <h3 class="home">Home</h3>
+        </a>
+        <a href="mailto:rishabhjain47596@gmail.com">
+            <h3 class="mail">Contact us</h3>
+        </a>
+        <a onclick="window.location.href='Sign-up.html'">
+            <h3 class="signup">Sign-up</h3>
+        </a>
+        <img src="https://raw.githubusercontent.com/akashyap2013/Books-bootstrap-website/master/assets/header-img.png" class="hacker-ig">
+        <h1 class="Heading">BOOKS DUO</h1>
+        <p class="Intro"> Books are like our best friends , help us when we need.</p>
+        <button class="button-1" onclick="Checkpin();"><strong> Get Started </strong></button>
+        <button class="button-4" onclick="window.location.href='Sign-up.html'"><strong>Sign-up</strong></button>
+    </div>
+    <br>
+    <center>
+        <h1>Get Support :-</h1>
+        <br>
+        <br>
+        <br>
+
+        <h3 class="developers">You can simply mail us , if you wanna give us suggestion or you have any quirey<br>
+            <br> Made by <strong>Rishabh Jain , Aditya Singh,</strong> Lovedeep , Urvashi</h3>
+    </center>
+    <br><br><br>
+</body>
+
+</html>
