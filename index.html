@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="Style.css">
     <script type="text/javascript">
         function Checkpin() {
-            var x = prompt("Enter your pin = ");
+            var x = 0;
+            x = prompt("Enter your pin = ");
             if (x > 999 && x < 2001) {
                 window.open("HELEN/chindex.html");
             }
             if (x > 2000 && x < 3001) {
-                window.open("STORY/chindex.html");
-            } else {
+                window.open("HELEN/AUDIO/audio.html");
+            }
+            if (x < 999 || x > 3001) {
                 alert("Wrong password try again");
             }
         }
